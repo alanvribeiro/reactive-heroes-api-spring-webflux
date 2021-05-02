@@ -1,6 +1,6 @@
 #  API de gerenciamento de heróis utilizando Spring WebFlux
 
-Este projeto consiste de uma API reativa de gerenciamento de heróis utilizando Spring WebFlux com testes unitários simples.
+Projeto Spring WebFlux para validação de uma API reativa de gerenciamento de heróis da Marvel/DC, utilizando DynamoDb e testes unitários simples.
 
 ## Stack utilizada
 
@@ -8,10 +8,11 @@ Este projeto consiste de uma API reativa de gerenciamento de heróis utilizando 
 * Spring WebFlux
 * Maven
 * DynamoDb
-* Lombok
 * Reactor
 * JUnit
 * Sl4j
+* Lombok
+* MapStruct
 * IntelliJ IDEA
 
 ## Informações adicionais
@@ -31,5 +32,5 @@ aws dynamodb list-tables --endpoint-url http://localhost:8000
 Para acessar a documentação da API
 
 ```
-http://localhost:8080/swagger-ui-heroes-reactive-api.html
+http://localhost:8080/swagger-ui.html
 ```
