@@ -6,13 +6,12 @@ Projeto Spring WebFlux para validação de uma API reativa de gerenciamento de h
 
 * Java 11
 * Spring WebFlux
-* Maven
 * DynamoDb
 * Reactor
-* JUnit
 * Sl4j
 * Lombok
 * MapStruct
+* Maven
 * IntelliJ IDEA
 
 ## Informações adicionais

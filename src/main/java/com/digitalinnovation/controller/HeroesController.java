@@ -34,6 +34,7 @@ public class HeroesController {
     }
 
     @GetMapping(HEROES_ENDPOINT_LOCAL + "/{id}")
+    @ResponseStatus(HttpStatus.OK)
     public Mono<ResponseEntity<Heroes>> findByIdHero(@PathVariable String id) {
         log.info("Requesting the hero with id {}", id);
         return heroesService.findByIdHero(id)
